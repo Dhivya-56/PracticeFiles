@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import TablePractice1 from './TablePractice1';
+import TablePractice2 from './TablePractice2';
+import Antd from './Antd';
+import DesignPractice from './DesignPractice';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <DesignPractice/> */}
+      <TablePractice1/>
+    {/* <TablePractice2/> */}
+    {/* <Antd/> */}
     </div>
   );
 }

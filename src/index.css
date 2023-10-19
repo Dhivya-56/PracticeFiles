@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sidebar_heading{
+  position:relative;
+  left:30px;
+  top:5px;
+ 
+
+}
+.his_card :hover{
+  background-color:rgb(234, 235, 236);
+
+}
+.butn_search{
+  margin-left: 20;
+}
+.mantis_logo{
+  display:"flex" ;
+  justify-content:"center";
+}
